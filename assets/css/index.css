@@ -527,9 +527,9 @@ body,
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url("/assets/fonts/roboto-v20-latin-regular.eot");
+  src: url("../fonts/roboto-v20-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("/assets/fonts/roboto-v20-latin-regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/roboto-v20-latin-regular.woff2") format("woff2"), url("/assets/fonts/roboto-v20-latin-regular.woff") format("woff"), url("/assets/fonts/roboto-v20-latin-regular.ttf") format("truetype"), url("/assets/fonts/roboto-v20-latin-regular.svg#Roboto") format("svg");
+  src: local(""), url("../fonts/roboto-v20-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v20-latin-regular.woff") format("woff"), url("../fonts/roboto-v20-latin-regular.ttf") format("truetype"), url("../fonts/roboto-v20-latin-regular.svg#Roboto") format("svg");
   /* Legacy iOS */
 }
 
@@ -539,9 +539,9 @@ body,
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  src: url("/assets/fonts/roboto-v20-latin-500.eot");
+  src: url("../fonts/roboto-v20-latin-500.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("/assets/fonts/roboto-v20-latin-500.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/roboto-v20-latin-500.woff2") format("woff2"), url("/assets/fonts/roboto-v20-latin-500.woff") format("woff"), url("/assets/fonts/roboto-v20-latin-500.ttf") format("truetype"), url("/assets/fonts/roboto-v20-latin-500.svg#Roboto") format("svg");
+  src: local(""), url("../fonts/roboto-v20-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v20-latin-500.woff2") format("woff2"), url("../fonts/roboto-v20-latin-500.woff") format("woff"), url("../fonts/roboto-v20-latin-500.ttf") format("truetype"), url("../fonts/roboto-v20-latin-500.svg#Roboto") format("svg");
   /* Legacy iOS */
 }
 
@@ -551,9 +551,9 @@ body,
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
-  src: url("/assets/fonts/roboto-v20-latin-900.eot");
+  src: url("../fonts/roboto-v20-latin-900.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("/assets/fonts/roboto-v20-latin-900.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/roboto-v20-latin-900.woff2") format("woff2"), url("/assets/fonts/roboto-v20-latin-900.woff") format("woff"), url("/assets/fonts/roboto-v20-latin-900.ttf") format("truetype"), url("/assets/fonts/roboto-v20-latin-900.svg#Roboto") format("svg");
+  src: local(""), url("../fonts/roboto-v20-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v20-latin-900.woff2") format("woff2"), url("../fonts/roboto-v20-latin-900.woff") format("woff"), url("../fonts/roboto-v20-latin-900.ttf") format("truetype"), url("../fonts/roboto-v20-latin-900.svg#Roboto") format("svg");
   /* Legacy iOS */
 }
 
@@ -620,18 +620,18 @@ body {
   display: inline-block;
   width: 59px;
   height: 42px;
-  background: url("/assets/images/logo.svg") no-repeat center;
+  background: url("../images/logo.svg") no-repeat center;
   -webkit-transition: .2s all linear;
   -o-transition: .2s all linear;
   transition: .2s all linear;
 }
 
 .logo__image:hover {
-  background-image: url("/assets/images/logo-hover.svg");
+  background-image: url("../images/logo-hover.svg");
 }
 
 .footer__logo-image {
-  background: url("/assets/images/logo-white.svg") no-repeat center;
+  background: url("../images/logo-white.svg") no-repeat center;
 }
 
 .icon {
@@ -640,35 +640,35 @@ body {
 }
 
 .arrow-icon--long-right-white {
-  background-image: url("/assets/icons/long-white-right-arrow.svg");
+  background-image: url("../icons/long-white-right-arrow.svg");
 }
 
 .arrow-icon--long-right {
-  background-image: url("/assets/icons/long-arrow.svg");
+  background-image: url("../icons/long-arrow.svg");
 }
 
 .pay-icon {
-  background-image: url("/assets/icons/pay.svg");
+  background-image: url("../icons/pay.svg");
 }
 
 .zoo-gate-icon {
-  background-image: url("/assets/icons/zoo-gate.svg");
+  background-image: url("../icons/zoo-gate.svg");
 }
 
 .panda-icon {
-  background-image: url("/assets/icons/panda.svg");
+  background-image: url("../icons/panda.svg");
 }
 
 .bulb-icon {
-  background-image: url("/assets/icons/bulb.svg");
+  background-image: url("../icons/bulb.svg");
 }
 
 .flag-icon {
-  background-image: url("/assets/icons/flag.svg");
+  background-image: url("../icons/flag.svg");
 }
 
 .heart-icon {
-  background-image: url("/assets/icons/heart.svg");
+  background-image: url("../icons/heart.svg");
 }
 
 .long-arrow__icon {
@@ -678,11 +678,11 @@ body {
 }
 
 .play-icon {
-  background: url("/assets/icons/play.svg") no-repeat center;
+  background: url("../icons/play.svg") no-repeat center;
 }
 
 .dollar-icon {
-  background: url("/assets/icons/dollar.svg") no-repeat center;
+  background: url("../icons/dollar.svg") no-repeat center;
 }
 
 .button__icon {
@@ -724,19 +724,19 @@ body {
 }
 
 .instagram-icon {
-  background-image: url("/assets/icons/instagram.svg");
+  background-image: url("../icons/instagram.svg");
 }
 
 .twitter-icon {
-  background-image: url("/assets/icons/twitter.svg");
+  background-image: url("../icons/twitter.svg");
 }
 
 .youtube-icon {
-  background-image: url("/assets/icons/youtube.svg");
+  background-image: url("../icons/youtube.svg");
 }
 
 .vk-icon {
-  background-image: url("/assets/icons/vk.svg");
+  background-image: url("../icons/vk.svg");
 }
 
 .button {
@@ -750,11 +750,15 @@ body {
   -ms-flex-align: center;
   align-items: center;
   min-width: 245px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   color: #ffffff;
   font-size: 1.8rem;
   line-height: 2.1rem;
   font-weight: 700;
   font-style: normal;
+  text-decoration: none;
   text-transform: uppercase;
   background-color: #4BD8B5;
   padding: 18px 18px;
@@ -792,11 +796,11 @@ body {
 }
 
 .carousel__button:hover > .carousel-button__icon.play-icon {
-  background-image: url("/assets/icons/play-hover.svg");
+  background-image: url("../icons/play-hover.svg");
 }
 
 .carousel__button:hover > .carousel-button__icon.dollar-icon {
-  background-image: url("/assets/icons/dollar-hover.svg");
+  background-image: url("../icons/dollar-hover.svg");
 }
 
 .contact-form__button {
@@ -817,7 +821,7 @@ body {
 .pagination-btn {
   width: 23px;
   height: 23px;
-  background: url("/assets/icons/right-arrow.svg") no-repeat center;
+  background: url("../icons/right-arrow.svg") no-repeat center;
   background-size: contain;
   cursor: pointer;
 }
@@ -1019,35 +1023,35 @@ body {
 }
 
 .carousel__item--eagle {
-  background-image: url("/assets/images/eagle.jpg");
+  background-image: url("../images/eagle.jpg");
 }
 
 .carousel__item--panda {
-  background-image: url("/assets/images/panda.jpg");
+  background-image: url("../images/panda.jpg");
 }
 
 .carousel__item--gorilla {
-  background-image: url("/assets/images/gorilla.jpg");
+  background-image: url("../images/gorilla.jpg");
 }
 
 .carousel__item--fox {
-  background-image: url("/assets/images/fox.jpg");
+  background-image: url("../images/fox.jpg");
 }
 
 .carousel__item--leopard {
-  background-image: url("/assets/images/leopard.jpg");
+  background-image: url("../images/leopard.jpg");
 }
 
 .carousel__item--lazy {
-  background-image: url("/assets/images/lazy.jpg");
+  background-image: url("../images/lazy.jpg");
 }
 
 .carousel__item--crocodile {
-  background-image: url("/assets/images/crocodile.jpg");
+  background-image: url("../images/crocodile.jpg");
 }
 
 .carousel__item--elephant {
-  background-image: url("/assets/images/elephant.jpg");
+  background-image: url("../images/elephant.jpg");
 }
 
 .carousel-item__content {
@@ -1206,12 +1210,12 @@ body {
 
 .pets-in-zoo__carousel .carousel__prev {
   left: -4%;
-  background: url("/assets/icons/left-arrow.svg") no-repeat center;
+  background: url("../icons/left-arrow.svg") no-repeat center;
 }
 
 .pets-in-zoo__carousel .carousel__next {
   right: -4%;
-  background: url("/assets/icons/right-arrow.svg") no-repeat center;
+  background: url("../icons/right-arrow.svg") no-repeat center;
 }
 
 .pets-in-zoo__carousel .carousel__track {
@@ -1297,12 +1301,12 @@ body {
 
 .testimonials__carousel .carousel__nav.carousel__prev {
   left: -60px;
-  background-image: url("/assets/icons/left-arrow.svg");
+  background-image: url("../icons/left-arrow.svg");
 }
 
 .testimonials__carousel .carousel__nav.carousel__next {
   right: -60px;
-  background-image: url("/assets/icons/right-arrow.svg");
+  background-image: url("../icons/right-arrow.svg");
 }
 
 .testimonials__carousel .carousel-item {
@@ -1341,11 +1345,11 @@ body {
 }
 
 .testimonials__carousel .carousel-item__avatar--user-1 {
-  background-image: url("/assets/images/user-ava.png");
+  background-image: url("../images/user-ava.png");
 }
 
 .testimonials__carousel .carousel-item__avatar--user-2 {
-  background-image: url("/assets/images/face-2.jpg");
+  background-image: url("../images/face-2.jpg");
 }
 
 .testimonials__carousel .carousel-item__subtitle {
@@ -1415,35 +1419,35 @@ body {
 }
 
 .round-item__wrapper .round-item__image--panda {
-  background-image: url("/assets/images/panda.png");
+  background-image: url("../images/panda.png");
 }
 
 .round-item__wrapper .round-item__image--eagle {
-  background-image: url("/assets/images/eagle.png");
+  background-image: url("../images/eagle.png");
 }
 
 .round-item__wrapper .round-item__image--crocodile {
-  background-image: url("/assets/images/crocodile.png");
+  background-image: url("../images/crocodile.png");
 }
 
 .round-item__wrapper .round-item__image--gorilla {
-  background-image: url("/assets/images/gorilla.png");
+  background-image: url("../images/gorilla.png");
 }
 
 .round-item__wrapper .round-item__image--fox {
-  background-image: url("/assets/images/fox.jpg");
+  background-image: url("../images/fox.jpg");
 }
 
 .round-item__wrapper .round-item__image--elephant {
-  background-image: url("/assets/images/elephant.jpg");
+  background-image: url("../images/elephant.jpg");
 }
 
 .round-item__wrapper .round-item__image--leopard {
-  background-image: url("/assets/images/leopard.jpg");
+  background-image: url("../images/leopard.jpg");
 }
 
 .round-item__wrapper .round-item__image--lazy {
-  background-image: url("/assets/images/lazy.jpg");
+  background-image: url("../images/lazy.jpg");
 }
 
 .round-item__wrapper.active {
@@ -1551,35 +1555,35 @@ body {
 }
 
 .round-item__wrapper .round-item__image--panda {
-  background-image: url("/assets/images/panda.png");
+  background-image: url("../images/panda.png");
 }
 
 .round-item__wrapper .round-item__image--eagle {
-  background-image: url("/assets/images/eagle.png");
+  background-image: url("../images/eagle.png");
 }
 
 .round-item__wrapper .round-item__image--crocodile {
-  background-image: url("/assets/images/crocodile.png");
+  background-image: url("../images/crocodile.png");
 }
 
 .round-item__wrapper .round-item__image--gorilla {
-  background-image: url("/assets/images/gorilla.png");
+  background-image: url("../images/gorilla.png");
 }
 
 .round-item__wrapper .round-item__image--fox {
-  background-image: url("/assets/images/fox.jpg");
+  background-image: url("../images/fox.jpg");
 }
 
 .round-item__wrapper .round-item__image--elephant {
-  background-image: url("/assets/images/elephant.jpg");
+  background-image: url("../images/elephant.jpg");
 }
 
 .round-item__wrapper .round-item__image--leopard {
-  background-image: url("/assets/images/leopard.jpg");
+  background-image: url("../images/leopard.jpg");
 }
 
 .round-item__wrapper .round-item__image--lazy {
-  background-image: url("/assets/images/lazy.jpg");
+  background-image: url("../images/lazy.jpg");
 }
 
 .round-item__wrapper.active {
@@ -1798,7 +1802,7 @@ body {
 }
 
 .first-screen {
-  background: url("/assets/images/mountains.jpg") no-repeat center;
+  background: url("../images/mountains.jpg") no-repeat center;
   background-size: cover;
   overflow: hidden;
   padding-bottom: 111px;
@@ -1979,7 +1983,7 @@ body {
   position: relative;
   height: 0;
   padding-top: calc(100% / 2.41);
-  background: url("/assets/images/map.svg") no-repeat center;
+  background: url("../images/map.svg") no-repeat center;
   background-size: contain;
   margin-top: 60px;
 }
@@ -1989,13 +1993,13 @@ body {
   width: 5%;
   height: 0;
   padding-top: 8%;
-  background: url("/assets/images/map-point.png") no-repeat center;
+  background: url("../images/map-point.png") no-repeat center;
   background-size: contain;
 }
 
 .map-point:hover,
 .map-point.active {
-  background-image: url("/assets/images/map-point-active.png");
+  background-image: url("../images/map-point-active.png");
 }
 
 .map-point:hover .tooltip {
@@ -2081,7 +2085,7 @@ body {
 }
 
 .gorilla-map-point .map-point__pic {
-  background: url("/assets/images/gorilla.jpg") no-repeat center;
+  background: url("../images/gorilla.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -2091,7 +2095,7 @@ body {
 }
 
 .eagle-map-point .map-point__pic {
-  background: url("/assets/images/eagle.jpg") no-repeat center;
+  background: url("../images/eagle.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -2101,7 +2105,7 @@ body {
 }
 
 .panda-map-point .map-point__pic {
-  background: url("/assets/images/panda.jpg") no-repeat center;
+  background: url("../images/panda.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -2111,7 +2115,7 @@ body {
 }
 
 .crocodile-map-point .map-point__pic {
-  background: url("/assets/images/crocodile.jpg") no-repeat center;
+  background: url("../images/crocodile.jpg") no-repeat center;
   background-size: cover;
 }
 

@@ -3,7 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/assets/css/index.css">
+
+	<base href="/">
+
+	<link rel="stylesheet" href="../assets/css/index.css">
 	<title>Online Zoo - Map</title>
 	<style>
 		.main-menu-link__map {
@@ -30,8 +33,8 @@
 			<nav class="header__nav">
 				<ul class="header__menu">
 					<li><a href="#" class="header__link link main-menu-link__about">About</a></li>
-					<li><a href="/pages/zoos/panda.html" class="header__link link main-menu-link__zoos">Zoos</a></li>
-					<li><a href="/pages/map.html" class="header__link link main-menu-link__map">Map</a></li>
+					<li><a href="pages/zoos/panda.html" class="header__link link main-menu-link__zoos">Zoos</a></li>
+					<li><a href="pages/map.html" class="header__link link main-menu-link__map">Map</a></li>
 					<li><a href="#contact-us" class="header__link link main-menu-link__contact-us">Contact Us</a></li>
 					<li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp" class="header__link link main-menu-link__design">Design</a></li>
 				</ul>
@@ -184,10 +187,11 @@
 					</a>
 				</div>
 
-				<button class="button icon-button map__main-button" onclick="window.location.href='/pages/zoos/panda.html';">
+				<a class="button icon-button map__main-button" href='pages/zoos/panda.html'>
 					<span class="icon button__icon play-icon"></span>
-					watch online
-				</button>
+					<span>watch online
+				</span></a>
+
 			</div>
 		</section>
 
@@ -235,8 +239,8 @@
 				<nav class="footer__nav">
 					<ul class="footer__menu">
 						<li><a href="/" class="footer__link link">About</a></li>
-						<li><a href="/pages/map.html" class="footer__link link">Map</a></li>
-						<li><a href="/pages/zoos/panda.html" class="footer__link link">Zoos</a></li>
+						<li><a href="pages/map.html" class="footer__link link">Map</a></li>
+						<li><a href="pages/zoos/panda.html" class="footer__link link">Zoos</a></li>
 					</ul>
 				</nav>
 
