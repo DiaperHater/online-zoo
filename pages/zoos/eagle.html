@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="panda.css">
+	<title>Online Zoo - Panda</title>
+	<style>
+		.main-menu-link__zoos {
+			font-weight: 900;
+			text-decoration: underline;
+			pointer-events: none;
+		}
+	</style>
+</head>
+<body>
+	
+	<header class="header">
+	<h1 style="width: 1px; height: 1px; margin: 0; padding: 0; overflow: hidden;">Online Zoo</h1>
+	<div class="wrapper layout-3-columns">
+		<a href="/" class="logo">
+			<span class="logo__image"></span>
+		</a>
+		<div class="header__nav-wraper">
+			<div class="burger">
+				<div class="burger__line"></div>
+				<div class="burger__line"></div>
+				<div class="burger__line"></div>
+			</div>		
+			<nav class="header__nav">
+				<ul class="header__menu">
+					<li><a href="#" class="header__link link main-menu-link__about">About</a></li>
+					<li><a href="/pages/zoos/panda.html" class="header__link link main-menu-link__zoos">Zoos</a></li>
+					<li><a href="/pages/map.html" class="header__link link main-menu-link__map">Map</a></li>
+					<li><a href="#contact-us" class="header__link link main-menu-link__contact-us">Contact Us</a></li>
+					<li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp" class="header__link link main-menu-link__design">Design</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="theme-switch">
+			
+		</div>
+	</div>
+</header>
+
+
+	<main>
+
+		<section class="animal">
+			<div class="animal__container">	
+				<div class="sidebar__wrapper">
+					<asside class="sidebar">
+						<div class="pagination-btn sidebar__pagination-btn pagination__prev"></div>
+						<div class="round-item__wrapper jsSidebarItem jsItemPanda">
+							<div class="round-item" title="panda">
+								<div class="round-item__background">
+									<span class="round-item__image round-item__image--panda"></span>
+								</div>
+							</div>
+						</div>
+						<div class="round-item__wrapper jsSidebarItem jsItemEagle">
+							<div class="round-item" title="eagle">
+								<div class="round-item__background">
+									<span class="round-item__image round-item__image--eagle"></span>
+								</div>
+							</div>
+						</div>
+							<div class="round-item__wrapper jsSidebarItem jsItemCrocodile">
+							<div class="round-item" title="crocodile">
+								<div class="round-item__background">
+									<span class="round-item__image round-item__image--crocodile"></span>
+								</div>
+							</div>
+						</div>
+						<div class="round-item__wrapper jsSidebarItem jsItemGorilla">
+							<div class="round-item" title="gorilla">
+								<div class="round-item__background">
+									<span class="round-item__image round-item__image--gorilla"></span>
+								</div>
+							</div>
+						</div>
+
+						<div class="pagination-btn sidebar__pagination-btn pagination__next"></div>
+					</asside>
+				</div>		
+				<div class="wrapper-mid animal-page__content-wrapper">
+					<h3 class="section-title animal__title">West End Bald Eagle Cam</h3>
+					<div class="animal-page__content">
+						<div class="animal__videos">
+							
+							<div class="video-container">
+								<iframe class="animal__video-frame" src="https://www.youtube.com/embed/7utMaDb1W08"></iframe>
+							</div>
+
+							<div class="video__carousel">
+								<div class="video-carousel__item">						
+									<div class="video-container">
+										<iframe class="animal__video-frame" src="https://www.youtube.com/embed/7utMaDb1W08"></iframe>
+										<div class="frame-plug"></div>
+									</div>
+								</div>
+								<div class="video-carousel__item">						
+									<div class="video-container">
+										<iframe class="animal__video-frame" src="https://www.youtube.com/embed/7utMaDb1W08"></iframe>
+										<div class="frame-plug"></div>
+									</div>
+								</div>
+								<div class="video-carousel__item">						
+									<div class="video-container">
+										<iframe class="animal__video-frame" src="https://www.youtube.com/embed/7utMaDb1W08"></iframe>
+										<div class="frame-plug"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="carousel__pagination">
+								<div class="pagination__dot active"></div>
+								<div class="pagination__dot"></div>
+								<div class="pagination__dot"></div>
+							</div>
+
+						</div>
+						<div class="animal__content">
+							<p class="subtitile">Population:</p>
+							<p class="text">More than 270 pairs in 2013</p>
+							<p class="subtitile">Habitat:</p>
+							<p class="text">Typically nest in forested areas adjacent to large bodies of water</p>
+							<p class="subtitile">Diet:</p>
+							<p class="text">
+								Main live prey consists of medium sized mammals and 
+								birds such as rabbits, hares, grouse and ptarmigan. 
+								The diet of coastal birds includes gulls and other seabirds.
+							</p>
+							<button class="button">feed</button>
+						</div>
+					</div>
+
+					<script>
+						const currentSidebarItem = document.querySelector('.jsItemEagle');
+						currentSidebarItem.classList.add('active');
+					</script>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+	<div class="wrapper">
+		<div class="layout-2-columns footer__container">
+			<div class="footer__column footer__form-column">
+				<a href="/" class="logo footer__logo">
+					<span class="logo__image footer__logo-image"></span>
+				</a>
+				<div class="contact-form" id="contact-us">
+					<h3 class="contact-form__title">Contact us</h3>
+					<form action="#" id="form" class="contact-form__body">
+						<div class="contact-form__row contact-form__row--border-botom">
+							<label for="name" class="contact-form__label">Name</label>
+							<input type="text" name="name" class="contact-form__input" required>
+						</div>
+						<div class="contact-form__row contact-form__row--border-botom">
+							<label for="email" class="contact-form__label">Email</label>
+							<input type="email" name="email" class="contact-form__input" required>
+						</div>
+
+						<div class="contact-form__row contact-form__text-container">								
+							<label for="text" class="tiny-text contact-form__label contact-form__text-label">Please enter your message</label>
+							<textarea name="text" form="form" cols="30" rows="10" maxlength="280" class="contact-form__textarea"></textarea required>
+						</div>
+
+						<div class="contact-form__row contact-form__checkbox-container">
+							<input type="checkbox" name="i-agree" class="contact-form__input contact-form__checkbox" required>
+							<label class="tiny-text" for="i-agree">I agree to the processing of Personal Data</label>
+						</div>
+
+						<div class="contact-form__row contact-form__buttons">
+							<button class="button contact-form__button" type="submit">
+								Send
+								<span class="icon long-arrow__icon arrow-icon--long-right-white"></span>
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="footer__column footer__nav-n-address-column">
+				<nav class="footer__nav">
+					<ul class="footer__menu">
+						<li><a href="/" class="footer__link link">About</a></li>
+						<li><a href="/pages/map.html" class="footer__link link">Map</a></li>
+						<li><a href="/pages/zoos/panda.html" class="footer__link link">Zoos</a></li>
+					</ul>
+				</nav>
+
+				<div class="layout-2-columns">
+					<div class="footer__column contacts__wrapper">
+						<div class="contacts">
+							<h5 class="title footer__contacts-title">ZOO Online Centre</h5>
+							<address class="address">
+								<p class="footer__contacts-text">
+									132, Address District, Street
+									Open Daily 10:00 am - 5:00 pm
+								</p>
+								<p class="footer__contacts-text">
+									T<a href="tel:(702) 163-3433">(702) 163-3433</a>
+									<a href="mailto:zoo.online@gmail.com">zoo.online@gmail.com</a>
+								</p>
+							</address>
+							<ul class="social-icons footer__social-icons">
+								<li>
+									<a href="https://www.instagram.com/" class="social-icons__link">
+										<span class="icon social-icons__icon instagram-icon"></span>
+									</a>
+								</li>
+								<li>
+									<a href="https://twitter.com/" class="social-icons__link">
+										<span class="icon social-icons__icon twitter-icon"></span>
+									</a>
+								</li>
+								<li>
+									<a href="https://youtube.com/" class="social-icons__link">
+										<span class="icon social-icons__icon youtube-icon"></span>
+									</a>
+								</li>
+								<li>
+									<a href="https://vk.com/" class="social-icons__link">
+										<span class="icon social-icons__icon vk-icon"></span>
+									</a>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+					<div class="footer__buttons">
+						<button class="button ">donate for volunteers</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__copyrights">
+			<p class="tiny-text" title="Yem Digital">©Noora Sagnayeva</p>
+			<p class="tiny-text" title="Rolling Scopes School & Yem Digital">©RSSchool and ©Yem Digital - 2021</p>
+		</div>
+	</div>
+</footer>
+
+
+	<script>
+		const items = document.querySelectorAll('.jsSidebarItem');
+		console.log(items);
+
+		items.forEach(i => {
+			const target = i.querySelector('.round-item__image');
+			console.log(target);
+
+			target.addEventListener('click', ()=>{
+				items.forEach(i => i.classList.remove('active'));
+				i.classList.add('active')
+			});
+		});
+	</script>
+
+</body>
+</html>					

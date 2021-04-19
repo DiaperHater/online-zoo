@@ -1,0 +1,123 @@
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+	<div class="wrapper">
+		<div class="layout-2-columns footer__container">
+			<div class="footer__column footer__form-column">
+				<a href="/" class="logo footer__logo">
+					<span class="logo__image footer__logo-image"></span>
+				</a>
+				<div class="contact-form" id="contact-us">
+					<h3 class="contact-form__title">Contact us</h3>
+					<form action="#" id="form" class="contact-form__body">
+						<div class="contact-form__row contact-form__row--border-botom">
+							<label for="name" class="contact-form__label">Name</label>
+							<input type="text" name="name" class="contact-form__input" required>
+						</div>
+						<div class="contact-form__row contact-form__row--border-botom">
+							<label for="email" class="contact-form__label">Email</label>
+							<input type="email" name="email" class="contact-form__input" required>
+						</div>
+
+						<div class="contact-form__row contact-form__text-container">								
+							<label for="text" class="tiny-text contact-form__label contact-form__text-label">Please enter your message</label>
+							<textarea name="text" form="form" cols="30" rows="10" maxlength="280" class="contact-form__textarea"></textarea required>
+						</div>
+
+						<div class="contact-form__row contact-form__checkbox-container">
+							<input type="checkbox" name="i-agree" class="contact-form__input contact-form__checkbox" required>
+							<label class="tiny-text" for="i-agree">I agree to the processing of Personal Data</label>
+						</div>
+
+						<div class="contact-form__row contact-form__buttons">
+							<button class="button contact-form__button" type="submit">
+								Send
+								<span class="icon long-arrow__icon arrow-icon--long-right-white"></span>
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="footer__column footer__nav-n-address-column">
+				<nav class="footer__nav">
+					<ul class="footer__menu">
+						<li><a href="/" class="footer__link link">About</a></li>
+						<li><a href="/pages/map.html" class="footer__link link">Map</a></li>
+						<li><a href="/pages/zoos/panda.html" class="footer__link link">Zoos</a></li>
+					</ul>
+				</nav>
+
+				<div class="layout-2-columns">
+					<div class="footer__column contacts__wrapper">
+						<div class="contacts">
+							<h5 class="title footer__contacts-title">ZOO Online Centre</h5>
+							<address class="address">
+								<p class="footer__contacts-text">
+									132, Address District, Street
+									Open Daily 10:00 am - 5:00 pm
+								</p>
+								<p class="footer__contacts-text">
+									T<a href="tel:(702) 163-3433">(702) 163-3433</a>
+									<a href="mailto:zoo.online@gmail.com">zoo.online@gmail.com</a>
+								</p>
+							</address>
+							<ul class="social-icons footer__social-icons">
+								<li>
+									<a href="https://www.instagram.com/" class="social-icons__link">
+										<span class="icon social-icons__icon instagram-icon"></span>
+									</a>
+								</li>
+								<li>
+									<a href="https://twitter.com/" class="social-icons__link">
+										<span class="icon social-icons__icon twitter-icon"></span>
+									</a>
+								</li>
+								<li>
+									<a href="https://youtube.com/" class="social-icons__link">
+										<span class="icon social-icons__icon youtube-icon"></span>
+									</a>
+								</li>
+								<li>
+									<a href="https://vk.com/" class="social-icons__link">
+										<span class="icon social-icons__icon vk-icon"></span>
+									</a>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+					<div class="footer__buttons">
+						<button class="button ">donate for volunteers</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__copyrights">
+			<p class="tiny-text" title="Yem Digital">©Noora Sagnayeva</p>
+			<p class="tiny-text" title="Rolling Scopes School & Yem Digital">©RSSchool and ©Yem Digital - 2021</p>
+		</div>
+	</div>
+</footer>
+
+
+	<script>
+		const items = document.querySelectorAll('.jsSidebarItem');
+		console.log(items);
+
+		items.forEach(i => {
+			const target = i.querySelector('.round-item__image');
+			console.log(target);
+
+			target.addEventListener('click', ()=>{
+				items.forEach(i => i.classList.remove('active'));
+				i.classList.add('active')
+			});
+		});
+	</script>
+
+</body>
+</html>
